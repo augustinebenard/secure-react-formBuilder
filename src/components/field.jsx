@@ -62,7 +62,7 @@ const Field = ({ field, updateField, removeField, moveFieldUp, moveFieldDown, in
         <div className="col-md-2 d-flex align-items-end field-actions">
           <button
             type="button"
-            className="btn btn-danger btn-custom"
+            className="btn btn-sm btn-danger btn-custom"
             onClick={() => removeField(field.id)}
           >
             <FaTrash />

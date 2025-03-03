@@ -65,7 +65,7 @@ const useFormBuilder = () => {
       }
 
       if (field.required) {
-        validator = validator.required("This field is required");
+        validator = validator.required(`${field.label || "Field"} is required`);
       }
 
       acc[key] = validator;

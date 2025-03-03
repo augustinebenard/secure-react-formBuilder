@@ -48,7 +48,6 @@ const FormBuilder = () => {
           </button>
         )}
       </form>
-      <Toaster />
     </div>
   );
 };
